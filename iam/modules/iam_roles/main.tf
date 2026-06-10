@@ -1,5 +1,10 @@
 
 # --- PERSONA 1: THE PLATFORM TEAM (Infrastructure Owners) ---
+
+provider "aws" {
+  region = var.region
+}
+
 # Build the VPCs, EKS, and Databases. Manage KMS Keys and RDS Ops
 # Admin access for VPCs/EKS but explicitly CANNOT view raw customer data(PII).
 module "platform_team_setup" {
