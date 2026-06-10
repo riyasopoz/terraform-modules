@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "wezvatech-2026-tfstate"
+    bucket         = "rop-wezva-tf"
     key            = "product-name/envs/prod_iam.tfstate"
     region         = "ap-south-1"
     encrypt        = true
