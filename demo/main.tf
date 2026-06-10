@@ -17,7 +17,7 @@ variable "myhosts" {
 }
 
 variable "mykey" { 
-  default = "wezva2026"
+  default = "Terrform"
 }
 
 module "server" {
